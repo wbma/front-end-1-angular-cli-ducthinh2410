@@ -1,0 +1,29 @@
+h1 {
+    text-align: center;
+    color: white;
+}
+
+nav {
+  color: white;
+  text-align: center;
+  font-size: 28px;
+  background-color: lightseagreen;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-content {
+  flex-grow: 3;
+  background-color: red;
+  margin: 10px 10px 20px 100px;
+  height: 500px;
+}
+
+.side-bar-content {
+  flex-grow: 1;
+  background-color: gray;
+  margin: 10px 100px 20px 10px;
+}
